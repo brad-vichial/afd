@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+   
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title  color="light"size="large">PRODUITS </ion-title>
+    </ion-toolbar> 
+    <ion-toolbar  color="light"> <ion-searchbar color="light"></ion-searchbar></ion-toolbar>  
+  </ion-header>  
+  <ion-content> 
+     <ion-list> 
+       <ion-item routerLink="/details" detail > 
+         <ion-thumbnail color="light"  item-strat> 
+           <img src="../../assets/imgs/pomme de france/IMG_3078.JPG">
+         </ion-thumbnail>  
+         <div class="flex-box"> 
+          <ion-label color="light"> POMME DE FRANCE </ion-label>
+             <p> </p>  
+          </div> 
+       </ion-item> 
+        
+       <ion-item routerLink="/details" detail >  
+        <ion-thumbnail  color="light" item-strat> 
+          <img src="../../assets/imgs/clementine/IMG_3071.JPG">
+        </ion-thumbnail>  
+        <div class="flex-box"> 
+          <ion-label color="light"> CLEMENTINE </ion-label>
+            <p> </p>  
+         </div> 
+      </ion-item> 
+       
+      <ion-item routerLink="/details" detail >  
+        <ion-thumbnail  color="light" item-strat> 
+          <img src="../../assets/imgs/poid/b2.JPG">
+        </ion-thumbnail>  
+        <div class="flex-box"> 
+          <ion-label color="light"> LA POIRE </ion-label>
+            <p> </p>  
+         </div> 
+      </ion-item> 
+        
+      <ion-item color="" routerLink="/details" detail > 
+        <ion-thumbnail  color="light" item-strat> 
+          <img src="../../assets/imgs/resain/IMG_3072.JPG">
+        </ion-thumbnail>  
+        <div class="flex-box"> 
+          <ion-label color="light"> RAISIN </ion-label>
+            <p> </p>  
+         </div> 
+      </ion-item>  
+       
+      <ion-item routerLink="//details" detail > 
+        <ion-thumbnail color="light"  item-strat> 
+          <img src="../../assets/imgs/pomme de france/IMG_3077.JPG">
+        </ion-thumbnail>  
+        <div class="flex-box"> 
+          <ion-label color="light"> POMME DE FRANCE </ion-label>
+            <p> </p>  
+         </div> 
+      </ion-item>
+     </ion-list>
+  </ion-content>
+
+</ion-content>   
+<ion-footer> 
+  <ion-button (click)="showCreatePage()"shape="round"expand="block">vendre vos biens</ion-button> 
+</ion-footer>

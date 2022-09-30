@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "AFD",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

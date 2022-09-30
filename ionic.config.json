@@ -1,0 +1,7 @@
+{
+  "name": "AFD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

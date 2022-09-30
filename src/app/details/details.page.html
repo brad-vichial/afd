@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar> 
+    <ion-buttons slot="start"> 
+      <ion-back-button  color="tertiary" text="con. "></ion-back-button>
+   </ion-buttons>
+    <ion-title>details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content paading >
+    <ion-slides pager autoplay="1000" loop="true">
+      <ion-slide>
+        <h1>Slide 1</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 2</h1>
+      </ion-slide>
+      <ion-slide>
+        <h1>Slide 3</h1>
+      </ion-slide>
+    </ion-slides>
+  
+
+
+</ion-content> 
+
+<ion-footer> 
+  <ion-button  (click)="showCreatePage()" shape="round"expand="block"><ion-icon fill="black" name="cart"></ion-icon> Ajouter au pannier </ion-button> 
+</ion-footer>
+

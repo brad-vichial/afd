@@ -1,0 +1,23 @@
+ion-content { 
+    --ion-background-color:linear-gradient(rgb(6, 4, 7),rgb(6, 4, 7));
+    
+}  
+ 
+ion-thumbnail { 
+    height:100px; 
+    width: 100px;
+} 
+ 
+h2 { 
+    font-weight: 700; 
+    font: size 15px;  
+   
+  } 
+   
+  .bot{ 
+    display: flex; 
+    justify-content: space-between;
+}   
+ion-footer{ 
+    --ion-background-color:linear-gradient(rgb(6, 4, 7),rgb(6, 4, 7));
+}
